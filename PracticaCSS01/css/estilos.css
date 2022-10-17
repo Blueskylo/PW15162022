@@ -1,0 +1,70 @@
+body{
+    /* lem */
+    font-size: 16px;
+    max-width: 1024px;
+    margin: 0px auto;
+}
+header{
+    background: #d1d3ee;
+}
+header nav{
+    background: #026dc6;
+    padding: 2px 0px;
+    border-radius: 5px;
+    width: 99%;
+    margin: 0px auto;
+}
+header nav form{
+    float: right;
+    margin-top: -37px;
+    margin-right: 20px;
+}
+header nav form input{
+    border-radius: 5px;
+}
+header nav form input[type="submit"]{
+    background: green;
+    color: white;
+    border: 1px solid green;
+}
+header nav ul li{
+   /* border: 1px solid red; */
+   color: white;
+   display: inline-block;
+   margin-right: 20px;
+  
+}
+#logo{
+    margin-top: -150px;
+}
+#seccion01{
+    margin-top: 10px;
+}
+#seccion01 article{
+    text-align: center;
+}
+#seccion01 article img {
+    border: 5px solid rgba(150, 150, 150, 0.5);
+    width: 98%;
+}
+#section02 article{
+    display: inline-block;
+    width: 32.8%;
+    vertical-align: top;
+}
+#section02 article input[type="submit"]{
+    background: white;
+    border-radius: 5px;
+    color: blue;
+    margin-left: 125px;
+    padding: 10px;
+}
+.unaSeccion{
+    font-size: 4.5em;
+}
+.nito{
+    font-weight: bold; /* Negritas */
+}
+.otraSeccion{
+    font-size: 2.5em;
+}

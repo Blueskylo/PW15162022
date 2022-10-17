@@ -1,0 +1,19 @@
+header{
+    background: #275e8f;
+}
+header nav{
+    background: #efefef;
+}
+header nav ul li{
+    display: inline-block;
+}
+header nav ul li img{
+    width: 80%;
+}
+body{
+    background: #efefef;
+}
+#logo{
+    width: 20%;
+    margin-left: 40%;
+}

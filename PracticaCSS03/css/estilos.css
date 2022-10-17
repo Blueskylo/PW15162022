@@ -1,0 +1,77 @@
+body{
+    font-size: 16px;
+    max-width: 1024px;
+    margin: 0px auto;
+}
+header nav{
+    background: orange;
+    border-radius: 5px;
+    width: 99%;
+}
+header nav ul li{
+    /* border: 1px solid red; */
+    color: white;
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: bold;
+}
+#section3 article{
+    display: inline-block;
+}
+#tuto{
+    width: 17%;
+}
+#thema{
+    width: 20%;
+}
+#red{
+    margin-left: 900px;
+    margin-top: -55px;
+}
+#publicidad{
+    float: right;
+    width: 40%;
+    display: inline-block;
+    margin-top: -250px;
+}
+#pub{
+    width: 40%;
+}
+#limon{
+    width: 60%;
+}
+#textoPub{
+    margin-left: -50    px;
+    background: orange;
+    border-radius: 5px;
+    padding: 1px;
+    color: white;
+    font-weight: bold;
+}
+#section2 img{
+    vertical-align: top;
+}
+#arbol{
+    border: 10px solid lightgray;
+}
+.colorblanco{
+    color: white;
+}
+.colorgris{
+    color: gray;
+}
+.letramediana{
+    font-size: 2em;
+}
+.fondonaranja{
+    background: orange;
+}
+.nito{
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+.colorgrisblanco{
+    color: lightgray;
+}
