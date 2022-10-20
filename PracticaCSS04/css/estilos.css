@@ -1,19 +1,155 @@
 header{
     background: #275e8f;
+    text-align: center;
 }
-header nav{
+body nav{
     background: #efefef;
+    text-align: right;
+    width: 99%;
+    border-radius: 5px;
+    margin: auto;
 }
-header nav ul li{
+body nav ul li{
     display: inline-block;
+    margin-right: 10px;
 }
-header nav ul li img{
-    width: 80%;
+body nav ul li img{
+    width: 60%;
 }
 body{
     background: #efefef;
+    font-size: 16px; /*1em*/
+    margin: 0px auto;
+    /*Recomendacion del cliente*/
+    max-width: 1078px;
+    min-width: 1078px;
+}
+#NavNoti{
+    padding-bottom: 7px;
+}
+#NavAjustes{
+    padding-bottom: 5px;
+}
+#NavMensajes{
+    padding-bottom: 5px;
 }
 #logo{
+    width: 15%;
+}
+body section{
+    display: inline-block;
+}
+#SectionMain{
+    width: 100%;
+    margin-top: -17px;
+    background: #efefef;
+    border-radius: 5px;
+}
+#section01{
+    width: 25%;
+    vertical-align: top;
+    background: #efefef;
+}
+#section02{
+    width: 70%;
+    background: #efefef;
+    float: right;
+    margin-right: 5px;
+}
+#section02 p{
+    margin-left: 25px;
+}
+#section01 aritcle{
+    width: 75%;
+}
+#section01 img{
+    width: 100%;
+}
+#section01 ul{
+    list-style: none;
+    color: white;
+    background: #1e4973;
+    margin-top: -4px;
+    margin-left: 0px;
+}
+#section01 ul li{
+    padding: 6px 0px;
+}
+#Sec01Art02{
+    background: white;
+}
+#section01 article nav{
+    background: #275e8f;
+    color: white;
+    text-align: left;
+}
+#section01 article nav img{
+    width: 10%;
+    vertical-align: middle;
+}
+#LoadingPanal{
+    width: 10%;
+}
+#sec02sec01{
+    display: inline-block;
+}
+#sec02sec01 article{
     width: 20%;
-    margin-left: 40%;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 10px;
+}
+#sec02sec01 article img{
+    width: 50%;
+}
+#sec02sec01Art01{
+    background: #19a820;
+    color: white;
+    padding: 5px;
+}
+#sec02sec01Art02{
+    background: #1b6da9;
+    color: white
+}
+#sec02sec01Art03{
+    background: #7f1aa8;
+    color: white
+}
+#sec02sec01Art04{
+    background: #a71a19;
+    color: white
+}
+#sec02sec02 img{
+    width: 140%;
+}
+#sec02sec03 article{
+    width: 21%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    background: #4a6bae;
+    margin: 3px;
+}
+#sec02sec03 article p{
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+#sec02sec03 article img{
+    width: 100%;
+}
+#sec02sec03 article input[type="submit"]{
+    background: #5bc0de;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border: 1px solid #5bc0de;
+    margin-left: 16%;
+}
+#Morra{
+    padding-top: 10px;
 }
